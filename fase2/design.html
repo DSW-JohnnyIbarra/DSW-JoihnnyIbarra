@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="title" content="Titulo de la WEB">
+    <meta name="description" content="Descripcion de la WEB">
+    <link href=" " rel="stylesheet" type="text/css" />
+    <title>Fase 2</title>
+</head>
+<body>
+    <header>
+        <h1>Aprendo HTML: Flex Box. listas y enlaces HTML</h1>        
+    </header>
+    <nav>
+        <ul>
+            <li>Inicio</li>
+            <li>Tema</li>
+            <ul>
+                <li>Flex Box</li>
+                <li>Listas y enlaces HTML</li>
+            </ul>
+            <li>Recursos</li>
+            <li>Aprendizaje</li>
+            <li>Autor:Johnny Andres Ibarra</li>
+        </ul>
+    </nav>
+    <section>
+        <h3>Propósito del sitio:
+        </h3>
+        <p>
+            Este sitio tiene como propósito establecer de una manera
+            el funcionamiento de las diferentes etiquetas en listas, viñetas y establecer enlaces
+            a otras páginas html.
+        </p>
+        <article>
+            <h4>Flex Box</h4>
+            <p>
+                Segun autor (año) El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado
+                como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir
+                el espacio entre los ítems de una interfaz y mejorar las capacidades de alineación.
+                Este artículo hace un repaso de las principales características de flexbox,
+                las que exploraremos con mayor detalle en el resto de estas guías.
+
+                Cuando describimos a flexbox como unidimensional destacamos el hecho que flexbox maneja
+                el layout en una sola dimensión a la vez — ya sea como fila o como columna.
+                Esto contrasta con el modelo bidimensional del Grid Layout de CSS, el cual controla
+                columnas y filas a la vez.
+
+                El eje principal
+                El eje principal está definido por flex-direction, que posee cuatro posibles valores:
+
+                row
+                row-reverse
+                column
+                column-reverse
+                Si elegimos row o row-reverse, el eje principal correrá a lo largo de la fila según la
+                dirección de la línea.
+            </p>
+
+            <img src="img/FlexBox_1.png" alt="eje principal" align="middle" />
+            <p>
+                Al elegir column o column-reverse el eje principal correrá desde el borde superior de la
+                página hasta el final — según la dirección del bloque.
+            </p>
+            <img src="img/FlexBox_2.png" alt="eje principal" align="middle" />
+        </article>
+        <article>
+            <h4>Listas y enlaces</h4>
+            <p>
+                Las listas en HTML nos permiten crear conjuntos de elementos en forma de lista dentro de una página, todos los cuales irán precedidos, generalmente, por un guion o número.
+
+                Los tipos de listas en HTML son los siguientes:
+
+                Listas ordenadas
+
+                Listas desordenadas
+
+                Listas Ordenadas
+
+                Las listas en HTML ordenadas son aquellas que nos muestran los elementos de la lista en orden. Para representar el orden tendremos los elementos numerados. Es decir, cada uno de los elementos irá precedido de un número o letra que establezca su orden.
+
+                Las listas en HTML ordenadas se representan mediante el elemento OL.
+
+
+                Cada uno de los elementos de la lista ordenada se representará mediante el elemento LI.
+
+                <ol>
+
+                    <li>Elemento 1</li>
+
+                    <li>Elemento 2</li>
+
+                    <li>Elemento N</li>
+
+                </ol>
+
+                Un ejemplo de lista ordenada sería el siguiente:
+
+                <ol>
+
+                    <li>Julio</li>
+
+                    <li>Carmen</li>
+
+                    <li>Ignacio</li>
+
+                    <li>Elena</li>
+
+                </ol>
+
+                Que produciría el siguiente efecto:
+
+                Julio
+                Carmen
+                Ignacio
+                Elena
+                Número de inicio de la lista: start
+
+                El atributo start nos permite indicar el número por el cual queremos que empiece la lista, ya que por defecto las listas ordenadas en HTML empiezan por el número 1.
+
+                De esta forma, si queremos que la lista empiece por el número 5, escribiremos el siguiente código:
+
+                <ol start="5">
+
+                    <li>Julio</li>
+
+                    <li>Carmen</li>
+
+                    <li>Ignacio</li>
+
+                    <li>Elena</li>
+
+                </ol>
+
+                Que produciría el siguiente efecto:
+
+                5. Julio
+
+                6. Carmen
+
+                7. Ignacio
+
+                8. Elena
+            </p>
+            <img src="img/listas_1.png" alt="eje principal" align="middle" />
+        </article>
+    </section>
+    <footer>
+        Autor: Johnny Andres Ibarra Diago </br>
+        Correo: jaibarrad@unad.edu.com </br>
+        Skype: Ibarjo28</br>
+        Móvil: 3012056229
+    </footer>
+</body>
+</html>
